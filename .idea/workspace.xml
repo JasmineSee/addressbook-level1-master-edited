@@ -12,21 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="584" column="45" lean-forward="true" selection-start-line="584" selection-start-column="45" selection-end-line="584" selection-end-column="45" />
+            <state relative-caret-position="-421">
+              <caret line="572" column="48" lean-forward="true" selection-start-line="572" selection-start-column="48" selection-end-line="572" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expected.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expected.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4256">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="215">
+              <caret line="278" column="30" lean-forward="false" selection-start-line="278" selection-start-column="30" selection-end-line="278" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -276,18 +276,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="584" column="45" lean-forward="true" selection-start-line="584" selection-start-column="45" selection-end-line="584" selection-end-column="45" />
+        <state relative-caret-position="215">
+          <caret line="278" column="30" lean-forward="false" selection-start-line="278" selection-start-column="30" selection-end-line="278" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4256">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="-421">
+          <caret line="572" column="48" lean-forward="true" selection-start-line="572" selection-start-column="48" selection-end-line="572" selection-end-column="48" />
           <folding />
         </state>
       </provider>
