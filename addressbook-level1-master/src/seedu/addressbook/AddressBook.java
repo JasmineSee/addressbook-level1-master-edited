@@ -1072,10 +1072,19 @@ public class AddressBook {
         for (String encodedPerson : encodedPersons){
             final Optional<HashMap<String,String>> decodedPerson = decodePersonFromString(encodedPerson);
        //     final Optional<HashMap<String,String>> decodedPerson = decodePersonFromString(encodedPerson.getValue());
-            if (!decodedPerson.isPresent()) {
+
+            /*original before refactoring
+//            if (!decodedPerson.isPresent()) {
+//                return Optional.empty();
+//            }
+//            decodedPersons.add(decodedPerson.get());  */
+            // refactored code
+            if (decodedPerson.isPresent()) {
+                decodedPersons.add(decodedPerson.get());
+            }else{
                 return Optional.empty();
             }
-            decodedPersons.add(decodedPerson.get());
+
         }
         return Optional.of(decodedPersons);
     }
