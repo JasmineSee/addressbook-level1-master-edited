@@ -181,6 +181,7 @@ public class AddressBook {
      * List of all persons in the address book.
      */
 //    private static final ArrayList<String[]> ALL_PERSONS = new ArrayList<>();
+            //Good naming(Distinguish clearly between single valued and multivalued variables)
     private static final ArrayList<HashMap<String, String>> ALL_PERSONS = new ArrayList<>();
 
     /**
