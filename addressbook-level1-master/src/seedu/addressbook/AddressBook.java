@@ -339,9 +339,20 @@ public class AddressBook {
      * Reserved characters are OS-dependent.
      * If a file already exists, it must be a regular file.
      */
+
+    /* original
     private static boolean hasValidFileName(Path filePath) {
         return filePath.getFileName().toString().lastIndexOf('.') > 0
                 && (!Files.exists(filePath) || Files.isRegularFile(filePath));
+    }
+    */
+//   after(avoid complicated expressions):
+    private static boolean hasValidFileName(Path filePath) {
+        boolean isContainsFullStop = filePath.getFileName().toString().lastIndexOf('.') > 0;
+        boolean isFilesExist = Files.exists(filePath);
+        boolean isRegularFile = Files.isRegularFile(filePath);
+        return isContainsFullStop
+                && (!isFilesExist || isRegularFile);
     }
 
     /**
