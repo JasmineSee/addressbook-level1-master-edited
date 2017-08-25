@@ -1,2 +1,1 @@
-ello p/1234 e/lala@qw.com
-me p/1234 e/123@gmail.com
+jas p/12345 e/j@gmail.com
