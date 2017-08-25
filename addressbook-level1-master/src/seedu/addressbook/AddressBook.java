@@ -348,8 +348,9 @@ public class AddressBook {
      * Initialises the in-memory data using the storage file.
      * Assumption: The file exists.
      */
-    //original
-//    private static void loadDataFromStorage() {    initialiseAddressBookModel(loadPersonsFromFile(storageFilePath)); }
+    /*original
+    private static void loadDataFromStorage() {    initialiseAddressBookModel(loadPersonsFromFile(storageFilePath)); }
+    */
     //after: keep lines no more than 120 characters
     private static void loadDataFromStorage() {
 
@@ -869,12 +870,23 @@ public class AddressBook {
 //        }
 //        return changed;
 //    }
+
+    /*original
+//    private static boolean deletePersonFromAddressBook(HashMap<String, String> exactPerson) {
+//        final boolean changed = ALL_PERSONS.remove(exactPerson);
+//        if (changed) {
+//            savePersonsToFile(getAllPersonsInAddressBook(), storageFilePath);
+//        }
+//        return changed;
+//    }
+     */
+    //changed boolean variable:
     private static boolean deletePersonFromAddressBook(HashMap<String, String> exactPerson) {
-        final boolean changed = ALL_PERSONS.remove(exactPerson);
-        if (changed) {
+        final boolean isChanged = ALL_PERSONS.remove(exactPerson);
+        if (isChanged) {
             savePersonsToFile(getAllPersonsInAddressBook(), storageFilePath);
         }
-        return changed;
+        return isChanged;
     }
 
     /**
