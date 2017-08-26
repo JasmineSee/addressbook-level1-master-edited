@@ -529,12 +529,9 @@ public class AddressBook {
      * Format is [name] p/[phone] or [name] e/[email]
      */
     private static boolean isGetStringValid(String getString) {
-       // final String matchAnyPersonDataPrefix = PERSON_DATA_PREFIX_PHONE + '|' + PERSON_DATA_PREFIX_EMAIL;
+        // final String matchAnyPersonDataPrefix = PERSON_DATA_PREFIX_PHONE + '|' + PERSON_DATA_PREFIX_EMAIL;
         final String[] splitArgs = getString.trim().split(" ");
-        for(int i=0;i<splitArgs.length;i++){
-            System.out.println(splitArgs[i]);
-        }
-        return (splitArgs.length==0) || (splitArgs.length>2) ? false : true;
+        return (splitArgs.length == 0) || (splitArgs.length > 2) ? false : true;
     }
 
     private static String extractNameFromGetPersonArgs(String getString) {
@@ -548,7 +545,7 @@ public class AddressBook {
     private static String extractDetailFromGetPersonArgs(String getString) {
         final String[] splitArgs = getString.trim().split(" ");
         String detailArg = "";
-        if (!detailArg.equals(" ")) {
+        if (splitArgs.length!=1) {
             if (splitArgs[1].equals(PERSON_DATA_PREFIX_EMAIL) || splitArgs[1].equals(PERSON_DATA_PREFIX_PHONE)) {
                 detailArg = splitArgs[1];
             }
@@ -574,14 +571,15 @@ public class AddressBook {
         return matchedPersons;
     }
 
+
     private static String executeGetPersonDetails(String commandArgs) {
         final String personName = extractNameFromGetPersonArgs(commandArgs);
         final String detailWanted = extractDetailFromGetPersonArgs(commandArgs);
-        if (personName.isEmpty() || detailWanted.isEmpty() || !isGetStringValid(commandArgs)) {
+        if (personName.equals("") || detailWanted.equals("") || !isGetStringValid(commandArgs)) {
             return getMessageForInvalidCommandInput(COMMAND_GET_WORD, getUsageInfoForGetCommand());
         }
         final ArrayList<HashMap<String, String>> personsFound = getPersonWithNameContainingAnyKeyword(personName);
-        showToUser(detailWanted,personsFound);
+        showToUser(detailWanted, personsFound);
         return getMessageForPersonsDisplayedSummary(personsFound);
     }
 
@@ -724,6 +722,7 @@ public class AddressBook {
 
     /**
      * Shows message for getting phone or email of user
+     *
      * @param message
      */
     private static void showToUser(String... message) {
@@ -747,11 +746,12 @@ public class AddressBook {
         updateLatestViewedPersonListing(persons);
     }
 
-    private static void showToUser(String detailWanted,ArrayList<HashMap<String, String>> personDetail ) {
+    private static void showToUser(String detailWanted, ArrayList<HashMap<String, String>> personDetail) {
         String listAsString = getDetailDisplayString(detailWanted, personDetail);
         showToUser(listAsString);
         updateLatestViewedPersonListing(personDetail);
     }
+
     /**
      * Returns the display string representation of the list of persons.
      */
@@ -779,25 +779,26 @@ public class AddressBook {
     }
 
 
-    private static String getDetailDisplayString(String detailWanted,ArrayList<HashMap<String, String>> persons) {
+    private static String getDetailDisplayString(String detailWanted, ArrayList<HashMap<String, String>> persons) {
         final StringBuilder messageAccumulator = new StringBuilder();
         for (int i = 0; i < persons.size(); i++) {
             final HashMap<String, String> person = persons.get(i);
-            String personName=getNameFromPerson(person);
-            System.out.println(personName);
+            String personName = getNameFromPerson(person);
+            //      System.out.println(personName);
             final int displayIndex = i + DISPLAYED_INDEX_OFFSET;
             if (detailWanted.equals(PERSON_DATA_PREFIX_PHONE)) {
                 messageAccumulator.append('\t')
-                        .append(String.format(MESSAGE_DISPLAY_LIST_ELEMENT_INDEX, displayIndex) + getMessageForGetPhoneArg(personName,person))
+                        .append(String.format(MESSAGE_DISPLAY_LIST_ELEMENT_INDEX, displayIndex) + getMessageForGetPhoneArg(personName, person))
                         .append(LS);
             } else if (detailWanted.equals(PERSON_DATA_PREFIX_EMAIL)) {
                 messageAccumulator.append('\t')
-                        .append(String.format(MESSAGE_DISPLAY_LIST_ELEMENT_INDEX, displayIndex) + getMessageForGetEmailArg(personName,person))
+                        .append(String.format(MESSAGE_DISPLAY_LIST_ELEMENT_INDEX, displayIndex) + getMessageForGetEmailArg(personName, person))
                         .append(LS);
             }
         }
         return messageAccumulator.toString();
     }
+
     /**
      * Constructs a prettified listing element message to represent a person and their data.
      *
@@ -833,12 +834,12 @@ public class AddressBook {
 
     private static String getMessageForGetPhoneArg(String personName, HashMap<String, String> person) {
         return String.format(MESSAGE_DISPLAY_GET_PERSON_PHONE,
-                personName,getPhoneFromPerson(person));
+                personName, getPhoneFromPerson(person));
     }
 
-    private static String getMessageForGetEmailArg(String personName,HashMap<String, String> person) {
+    private static String getMessageForGetEmailArg(String personName, HashMap<String, String> person) {
         return String.format(MESSAGE_DISPLAY_GET_PERSON_EMAIL,
-                personName, getPhoneFromPerson(person));
+                personName, getEmailFromPerson(person));
     }
 
     /**
