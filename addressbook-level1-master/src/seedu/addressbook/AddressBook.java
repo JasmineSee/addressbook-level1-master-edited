@@ -104,6 +104,11 @@ public class AddressBook {
     private static final String COMMAND_FIND_PARAMETERS = "KEYWORD [MORE_KEYWORDS]";
     private static final String COMMAND_FIND_EXAMPLE = COMMAND_FIND_WORD + " alice bob charlie";
 
+    private static final String COMMAND_GET_WORD = "get";
+    private static final String COMMAND_GET_DESC = "Gets phone number or email of specified person (keyword case-sensitive) and displays them.";
+    private static final String COMMAND_GET_PARAMETERS = "NAME p/ OR NAME e/";
+    private static final String COMMAND_GET_EXAMPLE = COMMAND_GET_WORD + " alice p/";
+
     private static final String COMMAND_LIST_WORD = "list";
     private static final String COMMAND_LIST_DESC = "Displays all persons as a list with index numbers.";
     private static final String COMMAND_LIST_EXAMPLE = COMMAND_LIST_WORD;
@@ -390,6 +395,8 @@ public class AddressBook {
                 return executeAddPerson(commandArgs);
             case COMMAND_FIND_WORD:
                 return executeFindPersons(commandArgs);
+            case COMMAND_GET_WORD:
+                return executeGetPersonDetails(commandArgs);
             case COMMAND_LIST_WORD:
                 return executeListAllPersonsInAddressBook();
             case COMMAND_DELETE_WORD:
@@ -523,6 +530,14 @@ public class AddressBook {
             }
         }
         return matchedPersons;
+    }
+
+    private static String executeGetPersonDetails(String commandArgs) {
+        final Set<String> keywords = extractKeywordsFromFindPersonArgs(commandArgs);
+        // final ArrayList<String[]> personsFound = getPersonsWithNameContainingAnyKeyword(keywords);
+        final ArrayList<HashMap<String, String>> personsFound = getPersonsWithNameContainingAnyKeyword(keywords);
+        showToUser(personsFound);
+        return getMessageForPersonsDisplayedSummary(personsFound);
     }
 
     /**
@@ -1264,6 +1279,7 @@ public class AddressBook {
     private static String getUsageInfoForAllCommands() {
         return getUsageInfoForAddCommand() + LS
                 + getUsageInfoForFindCommand() + LS
+                + getUsageInfoForGetCommand() + LS
                 + getUsageInfoForViewCommand() + LS
                 + getUsageInfoForDeleteCommand() + LS
                 + getUsageInfoForClearCommand() + LS
@@ -1287,6 +1303,16 @@ public class AddressBook {
         return String.format(MESSAGE_COMMAND_HELP, COMMAND_FIND_WORD, COMMAND_FIND_DESC) + LS
                 + String.format(MESSAGE_COMMAND_HELP_PARAMETERS, COMMAND_FIND_PARAMETERS) + LS
                 + String.format(MESSAGE_COMMAND_HELP_EXAMPLE, COMMAND_FIND_EXAMPLE) + LS;
+    }
+
+
+    /**
+     * Returns the string for showing 'find' command usage instruction
+     */
+    private static String getUsageInfoForGetCommand() {
+        return String.format(MESSAGE_COMMAND_HELP, COMMAND_GET_WORD, COMMAND_GET_DESC) + LS
+                + String.format(MESSAGE_COMMAND_HELP_PARAMETERS, COMMAND_GET_PARAMETERS) + LS
+                + String.format(MESSAGE_COMMAND_HELP_EXAMPLE, COMMAND_GET_EXAMPLE) + LS;
     }
 
     /**
