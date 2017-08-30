@@ -94,6 +94,11 @@ Examples:
 * `find Betsy Tim John`
   > Returns Any person having names `Betsy`, `Tim`, or `John`
 
+#### Getting a phone or email of a person
+> Gets phone number or email of specified person and displays them
+
+Format: 'get NAME p/'  or 'get NAME e/'
+
 #### Deleting a person: `delete`
 
 Format: `delete INDEX`  

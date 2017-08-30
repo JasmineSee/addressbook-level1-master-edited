@@ -4,7 +4,7 @@
     <list default="true" id="7d7738f9-7462-4e9a-b67c-8b29878cb3f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/addressbook-level1-master/seedu/addressbook/AddressBook.class" afterPath="$PROJECT_DIR$/out/production/addressbook-level1-master/seedu/addressbook/AddressBook.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" afterPath="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-level1-master/README.md" afterPath="$PROJECT_DIR$/addressbook-level1-master/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook.txt" afterPath="$PROJECT_DIR$/addressbook.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+            <state relative-caret-position="-2186">
+              <caret line="603" column="69" lean-forward="false" selection-start-line="603" selection-start-column="69" selection-end-line="603" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-level1-master/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expected.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4777">
+              <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,6 +74,26 @@
       <find>string[]</find>
       <find>getPhonefr</find>
       <find>for</find>
+      <find>try</find>
+      <find>boolean</find>
+      <find>loaddata</find>
+      <find>savePers</find>
+      <find>getstrin</find>
+      <find>p/</find>
+      <find>main</find>
+      <find>executeadd</find>
+      <find>isPrese</find>
+      <find>decode</find>
+      <find>get</find>
+      <find>executefind</find>
+      <find>showto</find>
+      <find>showtouser</find>
+      <find>getMessageForInvalidCommandInput</find>
+      <find>comma</find>
+      <find>executeget</find>
+      <find>system.</find>
+      <find>delete</find>
+      <find>isdelete</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -60,7 +110,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/addressbook-level1-master/test/input.txt" />
         <option value="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" />
+        <option value="$PROJECT_DIR$/addressbook-level1-master/README.md" />
       </list>
     </option>
   </component>
@@ -86,7 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,8 +167,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -134,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Batch.runtests">
+  <component name="RunManager" selected="Application.AddressBook">
     <configuration name="AddressBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -250,8 +302,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Batch.runtests" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AddressBook" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AddressBook" />
+        <item index="1" class="java.lang.String" itemvalue="Batch.runtests" />
       </list>
     </recent_temporary>
   </component>
@@ -274,29 +326,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27210885" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27332243" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -304,10 +356,136 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java</url>
+          <line>752</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="detailWanted.value" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/runtests.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/runtests.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/runtests.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/runtests.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -519,20 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4777">
-          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/exitinput.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -548,10 +712,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/expected.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/test/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+        <state relative-caret-position="-2186">
+          <caret line="603" column="69" lean-forward="false" selection-start-line="603" selection-start-column="69" selection-end-line="603" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
           <folding />
         </state>
       </provider>
