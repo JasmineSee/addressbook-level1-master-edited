@@ -531,7 +531,7 @@ public class AddressBook {
     private static boolean isGetStringValid(String getString) {
         // final String matchAnyPersonDataPrefix = PERSON_DATA_PREFIX_PHONE + '|' + PERSON_DATA_PREFIX_EMAIL;
         final String[] splitArgs = getString.trim().split(" ");
-        return (splitArgs.length == 0) || (splitArgs.length > 2) ? false : true;
+          return (splitArgs.length == 0) || (splitArgs.length > 2) ? false : true;
     }
 
     private static String extractNameFromGetPersonArgs(String getString) {

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d7738f9-7462-4e9a-b67c-8b29878cb3f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/addressbook-level1-master/seedu/addressbook/AddressBook.class" afterPath="$PROJECT_DIR$/out/production/addressbook-level1-master/seedu/addressbook/AddressBook.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" afterPath="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-level1-master/README.md" afterPath="$PROJECT_DIR$/addressbook-level1-master/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook.txt" afterPath="$PROJECT_DIR$/addressbook.txt" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +18,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/addressbook_level1_master_edited$AddressBook.coverage" NAME="AddressBook Coverage Results" MODIFIED="1504079284203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seedu.addressbook.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="92">
+              <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+=======
             <state relative-caret-position="-2186">
               <caret line="603" column="69" lean-forward="false" selection-start-line="603" selection-start-column="69" selection-end-line="603" selection-end-column="69" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
               <folding />
             </state>
           </provider>
@@ -37,11 +50,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-level1-master/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="421" column="22" lean-forward="false" selection-start-line="421" selection-start-column="22" selection-end-line="421" selection-end-column="22" />
+=======
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-level1-master/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
               <folding />
             </state>
           </provider>
@@ -76,7 +97,10 @@
       <find>for</find>
       <find>try</find>
       <find>boolean</find>
+<<<<<<< HEAD
+=======
       <find>loaddata</find>
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
       <find>savePers</find>
       <find>getstrin</find>
       <find>p/</find>
@@ -94,6 +118,10 @@
       <find>system.</find>
       <find>delete</find>
       <find>isdelete</find>
+<<<<<<< HEAD
+      <find>loaddata</find>
+=======
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,12 +139,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/addressbook-level1-master/test/input.txt" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/addressbook-level1-master/README.md" />
+=======
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
         <option value="$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java" />
         <option value="$PROJECT_DIR$/addressbook-level1-master/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -321,8 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -333,7 +364,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27210885" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27210885" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -343,7 +378,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -364,8 +403,19 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+<<<<<<< HEAD
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java</url>
+          <line>456</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+=======
       </breakpoints>
       <option name="time" value="7" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -724,12 +774,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+<<<<<<< HEAD
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-level1-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="421" column="22" lean-forward="false" selection-start-line="421" selection-start-column="22" selection-end-line="421" selection-end-column="22" />
+=======
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-level1-master/src/seedu/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="92">
+          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+=======
         <state relative-caret-position="-2186">
           <caret line="603" column="69" lean-forward="false" selection-start-line="603" selection-start-column="69" selection-end-line="603" selection-end-column="69" />
           <folding />
@@ -740,6 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="99" column="39" lean-forward="true" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+>>>>>>> 25071bb69b07b64e81e7ffe38db217fc1f0d97c0
           <folding />
         </state>
       </provider>
