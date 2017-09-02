@@ -115,6 +115,10 @@ public class AddressBook {
     private static final String COMMAND_LIST_DESC = "Displays all persons as a list with index numbers.";
     private static final String COMMAND_LIST_EXAMPLE = COMMAND_LIST_WORD;
 
+    private static final String COMMAND_SORT_WORD = "sort";
+    private static final String COMMAND_SORT_DESC = "Displays all persons as a list with index numbers.";
+    private static final String COMMAND_SORT_EXAMPLE = COMMAND_SORT_WORD;
+
     private static final String COMMAND_DELETE_WORD = "delete";
     private static final String COMMAND_DELETE_DESC = "Deletes a person identified by the index number used in "
             + "the last find/list call.";
@@ -399,6 +403,8 @@ public class AddressBook {
                 return executeFindPersons(commandArgs);
             case COMMAND_GET_WORD:
                 return executeGetPersonDetails(commandArgs);
+            case COMMAND_SORT_WORD:
+                return executeListAllPersonsInAddressBook();
             case COMMAND_LIST_WORD:
                 return executeListAllPersonsInAddressBook();
             case COMMAND_DELETE_WORD:
