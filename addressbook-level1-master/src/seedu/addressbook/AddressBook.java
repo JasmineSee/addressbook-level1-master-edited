@@ -154,6 +154,7 @@ public class AddressBook {
     private static final String PERSON_PROPERTY_NAME = "name";
     private static final String PERSON_PROPERTY_EMAIL = "email";
     private static final String PERSON_PROPERTY_PHONE = "phone";
+    private enum PersonProperty {NAME,EMAIL,PHONE};
 //    private static final HashMap<String,String> PERSON_MAP = new HashMap<>();
     /**
      * The number of data elements for a single person.
@@ -1096,6 +1097,10 @@ public class AddressBook {
         person.put(PERSON_PROPERTY_NAME, name);
         person.put(PERSON_PROPERTY_PHONE, phone);
         person.put(PERSON_PROPERTY_EMAIL, email);
+//        final HashMap<PersonProperty, String> person = new HashMap<>();
+//        person.put(PersonProperty.NAME, name);
+//        person.put(PersonProperty.PHONE, phone);
+//        person.put(PersonProperty.EMAIL, email);
         return person;
     }
 
